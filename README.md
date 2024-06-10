@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Interface of Examen Management Application :
+<img src="src/assets/images/authInter.png">     <img src="src/assets/images/studentsInt.png">
+<img src="src/assets/images/paymentForStudentInt.png">     <img src="src/assets/images/paymentsInt.png">
+<img src="src/assets/images/createPaymentInt.png">     
