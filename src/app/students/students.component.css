@@ -1,0 +1,74 @@
+.prescription {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 1rem;
+  background-color: #e9eff8;
+  border-left: 5px solid #2461BB;
+  font-weight: 600;
+  font-size: 16px;
+
+  .d-grid span:first-child {
+    margin-bottom: 8px;
+    font-family: 'Segoe UI Semibold', 'Segoe UI Normal', 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+  }
+
+  .d-grid span:last-child {
+    font-family: 'Segoe UI Normal', 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #696969;
+  }
+}
+
+.href {
+  color: blue;
+  text-decoration: underline !important;
+  text-decoration-color: blue;
+}
+
+.pagination-bar {
+  padding: 10px 10px;
+  position: relative;
+  z-index: 1;
+  border-top: 1px solid rgb(228, 221, 221);
+  border-bottom: 1px solid rgb(228, 221, 221);
+}
+
+.icon-b_full_left:before,
+.icon-b_left,
+.icon-b_full_right:before,
+.icon-b_right {
+  font-size: 20px;
+}
+
+#lbCurrentPage,
+#lbTotalPages,
+#slash {
+  font-size: 15px;
+}
+
+#lbCurrentPage {
+  width: 30px;
+  text-align-last: center;
+}
+
+.example-wrapper{
+  padding-left: 1.5rem;
+}
+
+:host ::ng-deep a,
+a:hover {
+  color: #3A75C4 !important;
+  text-decoration: underline !important;
+  font-weight: 400 !important;
+}
+
+:host ::ng-deep em {
+  font-style: normal;
+}

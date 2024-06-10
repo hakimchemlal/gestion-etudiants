@@ -1,0 +1,49 @@
+mat-form-field{
+  display: block;
+}
+
+.payment-form{
+  width: 600px;
+ /* flex: auto;
+  margin: auto;*/
+}
+
+.pdf-viewer{
+  height: 100vh;
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.half-width {
+  flex: 1; /* Chaque div prendra 50% de la largeur */
+}
+
+.three-quarter-width {
+  flex: 3; /* Chaque div prendra 50% de la largeur */
+}
+
+.spinner-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Couleur gris semi-transparente */
+  z-index: 999; /* Assure que le fond gris est au-dessus de tout le reste */
+}
+
+.spinner {
+  z-index: 1000; /* Assure que le spinner est au-dessus du fond gris */
+}
